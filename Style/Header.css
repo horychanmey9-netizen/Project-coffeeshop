@@ -1,0 +1,41 @@
+header{
+    background-color: rgb(126, 17, 17);
+    border-bottom: 1px solid white;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+}
+.nav-link:hover{
+    color: orange !important;
+
+}
+.bi-cart:hover{
+    background-color: orange;
+}
+#Inputsearch{
+    background-color: rgb(98, 6, 6);
+    color: white;
+}
+#Inputsearch::placeholder{
+    color: white;
+
+}  
+.offcanvas{
+    background-color: rgb(98, 6, 6) !important; 
+
+}
+.nav-item{
+    transition: all .4s ease-in-out;
+}
+.nav-item:hover{
+    background-color: #c9c9e16e;
+    padding-left: 15px;
+    transition: all .4s ease-in-out;
+}
+/* tablet */
+@media screen and (min-width:577px) and (max-width:992px){
+ .offcanvas{
+     width: 50% !important;
+    
+}
